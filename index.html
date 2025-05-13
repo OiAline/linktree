@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+    <title>Linktree Aline de Castro</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+    <body>
+        <section class="container__principal">
+            <img src="img/Aline.png" alt="Aline de Castro" class="foto__principal">
+            <h1 class="titulo__principal">Aline de Castro</h1>
+            <p class="descricao__principal">Apenas uma estudante de Desenvolvimento
+                de jogos compartilhando sua jornada e
+                experiências para inspirar.<br>
+                <br>
+                Navegue pelo meu feed de links para encontrar
+                minhas redes sociais e recursos interessantes
+                para aprender.</p>
+        </section>  
+        <section class="redes__sociais">
+            <div class="redes__sociais">
+                <a href="https://www.instagram.com/oialinedecastro/" target="_blank">
+                    <img src="img/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.linkedin.com/in/aline-de-castro-53972b302/" target="_blank">
+                    <img src="img/linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.youtube.com/@Devalinedecastro">
+                    <img src="img/youtube.png" alt="Youtube">
+                </a>
+                <a href="https://k.kwai.com/u/@Devalinedecasto/t8DUDrCk" target="_blank">
+                    <img src="img/kwai.png" alt="Kwai">
+                </a>
+                <a href="https://www.tiktok.com/@devalinedecastro?is_from_webapp=1&sender_device=pc" target="_blank">
+                    <img src="img/tiktok.png" alt="TikTok">
+                </a>
+                <a href="https://github.com/OiAline" target="_blank">
+                    <img src="img/github.png" alt="GitHub">
+                </a>
+            </div>
+        </section>
+        <section class="container__secundario">
+            <h2 class="titulo__principal">Quer colaborar?</h2>
+            <a href="https://mail.google.com/mail/?view=cm&to=byalinedecastro@gmail.com" target="_blank" class="botao__secundario">
+                <img src="img/aviao.png" alt="ícone avião">
+                Me envie um e-mail
+              </a>
+          </section>
+        <section class="container__links">
+            <a href="#" onclick="alertaIndisponivel()" class="botao__links">
+                <img src="img/livro.png" alt="Ícone de livro">
+                Recomendações de livros
+            </a>
+            <a href="#" onclick="alertaIndisponivel()" class="botao__links">
+                <img src="img/playlist.png" alt="Ícone Fone de Ouvido">
+                Playlist de Conteúdo gratuito
+            </a>
+            <div class="loja__geek">
+                <img src="img/lojageek.png" alt="Loja Geek" class="imagem__loja">
+                <button class="botao__loja">Loja Geek</button>
+            </div>
+        </section>
+        <section class="faq">
+            <h2 class="titulo__faq">FAQ</h2>
+            <details class="item__faq">
+                <summary>Qual linguagem de programação estou estudando?</summary>
+                <p>Atualmente estou estudando Desenvolvimento Web com HTML, CSS e Javascript, e também C# para desenvolvimento de jogos.</p>
+            </details>
+            <details class="item__faq">
+                <summary>Quais áreas da tecnologia me interessam?</summary>
+                <p>Tenho interesse em desenvolvimento de jogos, Frontend e Inteligência Artificial.</p>
+            </details>
+            <details class="item__faq">
+                <summary>Posso criar um projeto para você?</summary>
+                <p>Sim! Posso criar páginas web como esta que você está visitando. Envie uma proposta por e-mail ou entre em contato pelas redes sociais.</p>
+            </details>
+            <details class="item__faq">
+                <summary>Está começando e quer dicas?</summary>
+                <p>Visite a playlist de conteúdo gratuíto. Fiz um compilado de videos no youtube que são relevantes para quem quer entrar ná area de TI.</p>
+            </details>
+            <details class="item__faq">
+                <summary>Tenho portfólio? Onde posso ver?</summary>
+                <p>Estou trabalhando no projeto do meu portfólio, no momento meu linktree esta atuando nesse sentido.</p>
+            </details>
+        </section>
+        <section class="redes__sociais">
+            <div class="redes__sociais">
+                <a href="https://www.instagram.com/oialinedecastro/" target="_blank">
+                    <img src="img/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.linkedin.com/in/aline-de-castro-53972b302/" target="_blank">
+                    <img src="img/linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.youtube.com/@Devalinedecastro">
+                    <img src="img/youtube.png" alt="Youtube">
+                </a>
+                <a href="https://k.kwai.com/u/@Devalinedecasto/t8DUDrCk" target="_blank">
+                    <img src="img/kwai.png" alt="Kwai">
+                </a>
+                <a href="https://www.tiktok.com/@devalinedecastro?is_from_webapp=1&sender_device=pc" target="_blank">
+                    <img src="img/tiktok.png" alt="TikTok">
+                </a>
+                <a href="https://github.com/OiAline" target="_blank">
+                    <img src="img/github.png" alt="GitHub">
+                </a>
+            </div>
+        </section>
+        <script>
+            function alertaIndisponivel(){
+                alert("Ainda estou trabalhando nesse projeto. Aguarda só mais um pouquinho que logo logo finalizo! 😊")
+            }
+        </script>
+    </body>
+
+</html>
