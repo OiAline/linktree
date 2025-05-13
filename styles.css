@@ -53,7 +53,18 @@ body{
     flex-wrap: wrap;
     margin-top: 20px;
     margin-bottom: 20px;
+    
+}
 
+.redes__sociais a{
+  margin: 10px;
+
+}
+
+.redes__sociais img{
+  width: 50px;
+  height: auto;
+  display: block;
 }
 
 .container__secundario{
